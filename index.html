@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>
+        Imersão Dev - Aula 04
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <div class="gallery">
+            <div class="movie left" onmouseenter="moveLeft(event, 500)">
+                <!-- <img src="https://assets0.minhaserie.com.br/uploads/editor_pictures/000/050/824/content_pic.jpg" alt="">
+                <h3>Justice League</h3> -->
+            </div>
+            <i class="fas fa-angle-left" onclick="moveLeft(event, 1)"></i>
+            <div class="movie active">
+                <!-- <img  src="https://uauposters.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/201906131110-uau-posters-filmes-bumblebee.jpg" alt="">
+                <h3>Bumblebee</h3> -->
+            </div>
+            <i class="fas fa-angle-right" onclick="moveRight(event, 1)"></i>
+            <div class="movie right" onmouseenter="moveRight(event,500)">
+                <!-- <img src="http://br.web.img2.acsta.net/r_1280_720/pictures/19/04/30/17/13/2380866.jpg" alt="">
+                <h3>Sonic - O Filme</h3> -->
+            </div>
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  .gallery {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;      
+  }
+  .gallery .movie{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .gallery .movie h3 {
+    color: blanchedalmond;
+    margin: 0.5rem 0;
+    max-width: 80%;
+    font-size: 16px;
+    opacity: 0.6;
+  }
+  .gallery .movie.active h3{
+    font-size: 42px;
+    margin: 0.5rem 0;
+    max-width: 70%;
+    text-align: center;
+    opacity: 1;
+    background-color: rgb(187, 3, 3);
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+  .gallery .movie img{
+    width: 150px;
+    max-height: 200px;
+    object-fit: contain;
+    margin: 0 10px;
+    opacity: 0.6;
+  }
+
+  .gallery .movie.active img{
+    width: 300px;
+    max-height: 400px;
+    opacity: 1;
+  }
+  i {
+    color: blanchedalmond;
+    font-size: 32px;
+    opacity: 0.7;
+  }
+  i:hover {
+    cursor: pointer;
+    opacity: 1;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
+  }
+  
+  
